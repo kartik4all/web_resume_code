@@ -17,6 +17,11 @@ import APPLECLONE from '../assets/images/appleclone.jfif';
 import BOOKMYSHOWCLONE from '../assets/images/bookmyshow_clone.jfif';
 import BCCICLONE from '../assets/images/bcci_clone.jfif';
 import GAMING from '../assets/images/gaming.jfif';
+import IITBACT from '../assets/images/iitbact.png';
+import SABJIWALABABA from '../assets/images/sabjiwalababa.jpg';
+import SABJIWALABABAADMIN from '../assets/images/sabjiwalababaAdmin.jpg';
+
+
 
 
 
@@ -69,6 +74,9 @@ export default function Projects(props) {
           case 'BOOKMYSHOWCLONE':window.open('https://kartik4all.github.io/bookmyshow_clone/index.html');
           case 'BCCICLONE':window.open('https://kartik4all.github.io/bcci_clone/');
           case 'GAMING':window.open('https://kartik4all.github.io/gaming_static/');
+          case 'IITBACT':window.open('https://iitbact.org/');
+          case 'SABJIWALABABA':window.open('http://sabjiwalababa.com/#/');
+          case 'SABJIWALABABAADMIN':window.open('http://sabjiwalababa.com/dashboard')
 
       }
     }
@@ -78,10 +86,10 @@ export default function Projects(props) {
             <div id="projectContent" className="w-100">
                 <div id="projects">
                     <div className="aboutheading row">
-                        <div className="col-5">  <h1>My <span>Projects</span>
+                        <div className="col-sm-5">  <h1>My <span>Projects</span>
 
                         </h1></div>
-                        <div className="col-7 projectButtons"> <div align="center">
+                        <div className="col-sm-7 projectButtons"> <div align="center">
                             <button className="btn btn-default projectfilter-button" data-filter="all" name="all" onClick={(e) => switchGallery(e)}>All</button>
                             <button className="btn btn-default projectfilter-button" data-filter="designing" name="designing" onClick={(e) => switchGallery(e)}>Designing</button>
                             <button className="btn btn-default projectfilter-button" data-filter="development" name="development" onClick={(e) => switchGallery(e)}>JS/ReactJS</button>
@@ -95,7 +103,38 @@ export default function Projects(props) {
                             <div className="col-sm-6 gallery_productHeight">
 
 
+                            <div className="gallery_product  filter development">
+                                    <div className="gallery_productContainer">
+                                        <img src={SABJIWALABABA} className="img-responsive" />
+                                        <div className="galleryProductHover" onClick={(e)=>onButtonClick('SABJIWALABABA')}>
+                                            <div className="galleryProductHoverDetail">
+                                                <span>An E Commerce platform to buy fruits/vegetables.</span>
+                                                <h6>-ReactJS, Redux, Saga, Material Design</h6>
+                                            </div>
+                                            <div className="galleryProductHoverSkill" >
+                                                <div><button className="btn" >View</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3>SabjiwalaBaba</h3>
 
+                                </div>
+                                <div className="gallery_product  filter development">
+                                    <div className="gallery_productContainer">
+                                        <img src={SABJIWALABABAADMIN} className="img-responsive" />
+                                        <div className="galleryProductHover" onClick={(e)=>onButtonClick('SABJIWALABABAADMIN')}>
+                                            <div className="galleryProductHoverDetail">
+                                                <span>Admin Portal for Sabjiwalababa</span>
+                                                <h6>-ReactJS, Redux, Saga, Material Design</h6>
+                                            </div>
+                                            <div className="galleryProductHoverSkill" >
+                                                <div><button className="btn" >View</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3>SabjiwalaBaba Admin</h3>
+
+                                </div>
                                 <div className="gallery_product  filter development">
                                     <div className="gallery_productContainer">
                                         <img src={CLAROFARMER} className="img-responsive" />
@@ -169,20 +208,7 @@ export default function Projects(props) {
 
 
 
-                                <div className="gallery_product  filter development">
-                                    <div className="gallery_productContainer"> 
-                                    <div className="galleryProductHover" onClick={()=>onButtonClick('CLAROHOME')}>
-                                            <div className="galleryProductHoverDetail">
-                                                <span>Various Claro Services plotted on Google Maps</span>
-                                                <h6>-ReactJS, GoogleMaps</h6>
-                                            </div>
-                                            <div className="galleryProductHoverSkill" >
-                                                <div><button className="btn">View</button></div>
-                                            </div>
-                                        </div>
-                                     <img src={CLAROHOME} className="img-responsive" /></div>
-                                    <h3>Claro Home</h3>
-                                </div>
+                              
 
 
 
@@ -190,13 +216,11 @@ export default function Projects(props) {
 
                             </div>
                             <div className="col-sm-6 gallery_productWidth">
-
-
-                                <div className="gallery_product  filter designing" >
-                                    <div className="gallery_productContainer" >   <img src={APPLECLONE} className="img-responsive" />
-                                    <div className="galleryProductHover" onClick={()=>onButtonClick('APPLECLONE')}>
+                            <div className="gallery_product  filter designing" >
+                                    <div className="gallery_productContainer" >   <img src={IITBACT} className="img-responsive" />
+                                    <div className="galleryProductHover" onClick={()=>onButtonClick('IITBACT')}>
                                             <div className="galleryProductHoverDetail">
-                                                <span>Static Website</span>
+                                                <span>Static Website, Corona Virus awareness initiative as my contribution to society</span>
                                                 <h6>-Bootstrap, HTML5, CSS3</h6>
                                             </div>
                                             <div className="galleryProductHoverSkill" >
@@ -204,8 +228,10 @@ export default function Projects(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <h3>Apple Clone</h3>
+                                    <h3>IITB ACT</h3>
                                 </div>
+
+                               
 
 
 
@@ -224,6 +250,20 @@ export default function Projects(props) {
                                           <img src={MANDIDASHBOARD} className="img-responsive" /></div>
                                     <h3>Mandi Dashboard</h3>
 
+                                </div>
+                                <div className="gallery_product  filter designing" >
+                                    <div className="gallery_productContainer" >   <img src={APPLECLONE} className="img-responsive" />
+                                    <div className="galleryProductHover" onClick={()=>onButtonClick('APPLECLONE')}>
+                                            <div className="galleryProductHoverDetail">
+                                                <span>Static Website</span>
+                                                <h6>-Bootstrap, HTML5, CSS3</h6>
+                                            </div>
+                                            <div className="galleryProductHoverSkill" >
+                                                <div><button className="btn">View</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3>Apple Clone</h3>
                                 </div>
                                 <div className="gallery_product  filter development">
                                     <div className="gallery_productContainer"> 
@@ -336,6 +376,20 @@ export default function Projects(props) {
                                         </div>
                                      <img src={ENTRY} className="img-responsive" /></div>
                                     <h3>B4s Entry</h3>
+                                </div>
+                                <div className="gallery_product  filter development">
+                                    <div className="gallery_productContainer"> 
+                                    <div className="galleryProductHover" onClick={()=>onButtonClick('CLAROHOME')}>
+                                            <div className="galleryProductHoverDetail">
+                                                <span>Various Claro Services plotted on Google Maps</span>
+                                                <h6>-ReactJS, GoogleMaps</h6>
+                                            </div>
+                                            <div className="galleryProductHoverSkill" >
+                                                <div><button className="btn">View</button></div>
+                                            </div>
+                                        </div>
+                                     <img src={CLAROHOME} className="img-responsive" /></div>
+                                    <h3>Claro Home</h3>
                                 </div>
 
 

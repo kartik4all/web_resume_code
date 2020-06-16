@@ -28,8 +28,8 @@ export default function Contact(props) {
                             <ul>
                                 <li>
                                     <div className="row w-100 justify-content-between">
-                                        <div className='col-4 '><span> &nbsp;Address.... &nbsp; </span></div>
-                                        <div className='col-8 '>326/1, D-6, Sec-6, Rohini, Delhi-110085</div>
+                                        <div className='colsm--4 '><span> &nbsp;Address.... &nbsp; </span></div>
+                                        <div className='colsm--8 '>326/1, D-6, Sec-6, Rohini, Delhi-110085</div>
                                     </div> 
                                 </li>
                              
@@ -40,14 +40,14 @@ export default function Contact(props) {
                             <ul>
                                 <li>
                                     <div className="row w-100 justify-content-between">
-                                        <div className='col-4 '><span> &nbsp;Email.... &nbsp; </span></div>
-                                        <div className='col-8 '>kehar.kartik31@gmail.com</div>
+                                        <div className='col-sm--4 '><span> &nbsp;Email.... &nbsp; </span></div>
+                                        <div className='col-sm-8 '>kehar.kartik31@gmail.com</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="row w-100 justify-content-between">
-                                        <div className='col-4 '><span> &nbsp;Phone...&nbsp; </span></div>
-                                        <div className='col-8 '>+91-8010601654</div>
+                                        <div className='col-sm-4 '><span> &nbsp;Phone...&nbsp; </span></div>
+                                        <div className='col-sm-8 '>+91-8010601654</div>
                                     </div>
                                 </li>
                               

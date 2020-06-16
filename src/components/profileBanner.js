@@ -28,7 +28,7 @@ export const ProfileBanner = (props) => {
             <div id="profileAdditional" className="container">
                 <div className="row">
                     <div className="col-sm-6">
-                        <button className="btn" onClick={()=>window.open('https://drive.google.com/file/d/1Ae88mI-CyZjIJAO__NwmajG8f3cQfTSM/view','target')}>Download CV <i className="fas fa-download" /></button>
+                        <button className="btn" onClick={()=>window.open('https://drive.google.com/file/d/1Jta-CNEi8TlbgknsCWl_Vv8qPyWALJE1/view?usp=sharing','target')}>Download CV <i className="fas fa-download" /></button>
                     </div>
                     <div className="col-sm-6">
                         <button className="btn" onClick={()=>props.handleChange('contact')}>Contact Me <i className="fas fa-long-arrow-alt-right" /></button>

@@ -19,7 +19,7 @@ export default function About(props) {
                     </div>
                     <div className="row w-100 aboutDetails">
                         <div className="col-6">
-                            <p>I am an enthusiast with 9 months work-experience willing to work for an organisation under working professionals which provides me the opportunity to improve my skills and knowledge for organisational as well as personal growth.</p>
+                            <p>I am an enthusiast with 1 year work-experience willing to work for an organisation under working professionals which provides me the opportunity to improve my skills and knowledge for organisational as well as personal growth.</p>
                         </div>
                         <div className="col-6">
                             <ul>
@@ -32,13 +32,13 @@ export default function About(props) {
                                 <li>
                                     <div className="row w-100 justify-content-between">
                                         <div className='col-6 '><span> &nbsp;Experience...&nbsp; </span></div>
-                                        <div className='col-6 '>9 months</div>
+                                        <div className='col-6 '>1 year +</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="row w-100 justify-content-between">
                                         <div className='col-6 ' ><span>Projects&nbsp; &nbsp;Completed...&nbsp; </span></div>
-                                        <div className='col-6 '>16</div>
+                                        <div className='col-6 '>20+</div>
                                     </div>
                                 </li>
                             </ul>
