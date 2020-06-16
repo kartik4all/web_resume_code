@@ -489,9 +489,7 @@ font-size: 15px !important;
   color: black;
 }
 .aboutheading span, .resumeheading span{
-
   color: black;
-
   }
   .aboutDetails>div{
     padding: 20px 30px;
@@ -507,7 +505,6 @@ font-size: 15px !important;
   .aboutDetails ul li:last-child{
    border-bottom: 0px;
   }
-
   .aboutDetails ul li:first-child{
     padding-top: 0px;
    }
@@ -526,8 +523,6 @@ font-size: 15px !important;
     padding: 20px 18px;
     border-radius: 50%;
     background-color:#78cc6d ;
-    
-    
   }
   .aboutDetails h2{
     text-align: center;
@@ -541,7 +536,6 @@ font-size: 15px !important;
     border: 1px solid lightgray;
     font-size: 12px;
     font-weight: 500;
-   
     margin-top: 20px;
     margin-left: 40px;
     border-radius: 4px;
@@ -615,8 +609,8 @@ font-size: 15px !important;
     padding-top: 7px;
   }
   #resumeSkills .resumeSkillsKnowledge ul li h4{
-padding: 7px 15px;
-color:black ;
+  padding: 7px 15px;
+  color:black ;
   }
   .resumeSkillsKnowledge i{
     color:#78cc6d ;
@@ -642,11 +636,8 @@ color:black ;
 .projectDetails>div{
   margin-left: 0px;
 }
-#projects .aboutheading{
-  
-}
-.MuiTab-fullWidth{
 
+.MuiTab-fullWidth{
 color: white !important;
 }
 .MuiTabs-flexContainer{
@@ -659,9 +650,6 @@ outline: none !important;
   outline: none !important;
   box-shadow: none !important;
   }
-#projects .MuiBox-root MuiBox-root-112{
-  /* height: 600px !important; */
-}
 #projects .aboutheading h1{
   border-bottom: 0px !important;
 }
@@ -685,8 +673,7 @@ outline: none !important;
     height: 45px;
     border-bottom: 1px solid #5e5e5e;
 }
-#projects .projectfilter-button
-{
+#projects .projectfilter-button{
     font-size: 13px;
     border: none;
     text-align: center;
@@ -696,7 +683,6 @@ background: transparent;
 padding: 30px 20px 30px 35px;
 line-height: 21px;
 font-weight: 600;
-
 }
 #projects .projectfilter-button:hover
 {
@@ -704,33 +690,23 @@ font-weight: 600;
     border-radius: none;
     text-align: center;
     color: #78cc6d;
-
-
 }
 #projects .projectfilter-button:focus{
   outline: 0px !important;
   color: #78cc6d;
 }
-#projects .projectfilter-button.active
-{
+#projects .projectfilter-button.active{
   color: #78cc6d;
 }
 
-#projects .port-image
-{
+#projects .port-image{
     width: 100%;
-}
-
-#projects .gallery_product
-{
+  }
+#projects .gallery_product{
     margin: 30px;
-    padding: 0px !important;
-  
-    
+    padding: 0px !important;    
 }
-.projectButtons{
 
-}
 .gallery_productContainer{
    overflow: hidden; 
    box-shadow: 0px 0px 11px 0px rgba(161,155,161,1);
@@ -747,7 +723,6 @@ font-size: 12px;
 background-image: linear-gradient(to right bottom, #51a4a2, #45b09f, #48bb94, #5bc483, #78cc6d );
 opacity: 0;
 transition: 0.5s;
-
 }
 .gallery_productHeight .galleryProductHoverDetail{
   width: 100%;
@@ -776,7 +751,6 @@ transition: 0.5s;
 .gallery_productHeight .galleryProductHoverSkill{
   width: 100%;
   height: 100px;
-
 }
 .galleryProductHoverSkill button{
   width: 100%;
@@ -786,7 +760,6 @@ transition: 0.5s;
 .gallery_productWidth .galleryProductHoverSkill{
   width: 100%;
   height: 50px;
-
 }
 .galleryProductHoverSkill>div{
   margin: 10px 20px;
@@ -797,10 +770,7 @@ transition: 0.5s;
   width: 100%;
   height: 100%;
   size: 100%;
-  
   transition: 0.5s;
-  /* overflow: hidden; */
-  
 }
 #mapContent{
   position: inherit !important;
@@ -821,7 +791,6 @@ color: black;
 }
 .gallery_productHeight img{
   height: 360px !important;
-  
 }
 .gallery_productHeight{
   border-right: 1px solid lavender;
@@ -868,9 +837,6 @@ color: black;
     .aboutIcon i{
       font-size: 15px;
       padding: 10px 9px;
-  
-      
-      
     }
     .aboutIcon{
       margin-top: 20px !important;
@@ -902,8 +868,9 @@ color: black;
     .resumeDescHead{
       margin: 0px;
       margin-top: 10px;
-      width: 130px;
-      margin-left: 5px;
+      width: 90%;
+      margin: 0px 10px;
+     justify-content: center !important;
       text-align: center;
     }
     .resumeDetailsHeading{
@@ -926,8 +893,7 @@ font-size: 18px;
     .resumeSkillsCircular h4{
       font-size: 10px !important;
       
-    }
-    
+    }  
     #resumeContent{
       padding-left: 20px;
     }
@@ -945,7 +911,6 @@ font-size: 18px;
       top: 2%;
       left: 2%;
       position: fixed;
-      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-      
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);     
   }
 }
